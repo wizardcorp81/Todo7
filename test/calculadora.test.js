@@ -1,3 +1,4 @@
+/*TESTANDO A CALCULADORA*/
 const calculadora = require("../calculadora");
 
 test("deve somar 2 numeros corretamente",() => {
