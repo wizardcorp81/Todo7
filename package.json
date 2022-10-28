@@ -6,7 +6,6 @@
     "test": "test"
   },
   "scripts": {
-    "start": "nodemon rotas.js",
     "test": "jest"
   },
   "jest": {
