@@ -1,3 +1,15 @@
+import * as Sentry from "@sentry/browser";
+import { BrowserTracing } from "@sentry/tracing";
+
+Sentry.init({
+  dsn: "https://a9dafe7c8dd04614ab60920ee160ebe7@o4504103212154880.ingest.sentry.io/4504103259340800",
+  integrations: [new BrowserTracing()],
+
+  // Set tracesSampleRate to 1.0 to capture 100%
+  // of transactions for performance monitoring.
+  // We recommend adjusting this value in production
+  tracesSampleRate: 1.0,
+});
 const express = require('express')
 
 const app = express()
