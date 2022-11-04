@@ -10,6 +10,8 @@ Sentry.init({
   // We recommend adjusting this value in production
   tracesSampleRate: 1.0,
 });
+
+//teste
 const express = require('express')
 
 const app = express()
